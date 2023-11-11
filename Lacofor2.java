@@ -1,6 +1,6 @@
 package LacoRepeticao;
 import java.util.Scanner;
-public class Lacofor2 {
+public class LacoFor2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

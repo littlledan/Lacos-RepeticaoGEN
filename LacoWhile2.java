@@ -5,7 +5,6 @@ public class LacoWhile2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int idade = 0, genero = 0, cargo = 0, back = 0, mfront = 0, hmob = 0, full = 0, total = 0, idadeg = 0;
-		double media;
 		String resp = "S";
 		Scanner scanner = new Scanner(System.in);
 				
@@ -53,8 +52,7 @@ public class LacoWhile2 {
 		System.out.println("\nTotal de Homens Cis e Trans desenvolvedores Mobile maiores de 40 anos: " + hmob);
 		System.out.println("\nTotal de Pessoas Não Binários desenvolvedores FullStack menores de 30 anos: " + full);
 		System.out.println("\nTotal de Pessoas que responderam a pesquisa: " + total);
-		media = idadeg / total;
-		System.out.println("\nA media de idade das pessoas que responderam a pesquisa é: " + media);
+		System.out.println("\nA media de idade das pessoas que responderam a pesquisa é: " + (idadeg / total));
 		
 	}
 
